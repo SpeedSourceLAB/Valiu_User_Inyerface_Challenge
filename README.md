@@ -20,18 +20,16 @@ The project is implemented with Python and Gherkin Language.
 
 4. Open the cloned project in a code editor.
 
-5. Activate Virtual environment by moving to folder Valiu_User_Inyerface_Challenge\Valiu_User_Inyerface_Challenge
-   and providig command .\venv\Scripts\activate
-
-   Valiu_User_Inyerface_Challenge\Valiu_User_Inyerface_Challenge>.\venv\Scripts\activate
-   
+5. Activate Virtual environment using .\venv\Scripts\activate
+      
+   Install requirements.txt: pip install -r requirements.txt 
+    
 6. There is a place while filling form 2 / 4 where we need to upload a picture for that goto file
-
 
    Valiu_User_Inyerface_Challenge\Valiu_User_Inyerface_Challenge\features\Page_Objs\Utilities.py
    and change the path in line 233.
    'control_set_text("Open", "Edit1", "C:\\Users\\prade\\Downloads\\cute_dog.jpeg")'
-
+   
 7. Open terminal and move to features folder and give command "behave"
 
 8. The script runs and completes the User Inyerface Challenge.

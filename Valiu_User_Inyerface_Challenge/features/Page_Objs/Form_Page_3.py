@@ -465,6 +465,9 @@ class Form_Page_3_of_4:
 
     'Enter Birthday by Selecting Day, Month, Year'
     def enter_DOB(self,driver):
+        'Scroll window height'
+        driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
+
         return self.choose_specific_day(driver) and\
                self.choose_specific_month(driver) and\
                self.choose_specific_year(driver)
