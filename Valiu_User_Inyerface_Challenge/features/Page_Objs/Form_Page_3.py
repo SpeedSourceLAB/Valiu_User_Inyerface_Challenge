@@ -396,7 +396,7 @@ class Form_Page_3_of_4:
 
         'Get all month elements'
         all_month_elements = self.get_all_month_elements(driver)
-        option_no = randint(1, len(all_month_elements)-1)
+        option_no = randint(1, len(all_month_elements)-2)
         print(option_no)
 
         'Select a random month element'
