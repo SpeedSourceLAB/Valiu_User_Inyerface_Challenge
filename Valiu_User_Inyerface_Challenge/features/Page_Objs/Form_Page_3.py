@@ -1,3 +1,4 @@
+import time
 from random import randint
 from datetime import date
 from selenium.webdriver.common.by import By
@@ -440,6 +441,7 @@ class Form_Page_3_of_4:
 
         'Click Year element'
         result_year_element = self.click_year_element(driver)
+        time.sleep(1)
 
         'Get all Year elements'
         all_year_elements = self.get_all_year_elements(driver)
